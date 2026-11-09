@@ -98,6 +98,11 @@
     <logosSubsetNamegamecarouseltype>Miniaturas</logosSubsetNamegamecarouseltype>
     <!-- Subset options for Carousel content type -->
     <gamecarouseltype>Origem da imagem do carrossel</gamecarouseltype>
+    <previewImageSource>Imagem de pré-visualização</previewImageSource>
+    <previewImageScreenshot>Captura de ecrã (image)</previewImageScreenshot>
+    <previewImageCover>Capa (thumb)</previewImageCover>
+    <videoDelay>Atraso do vídeo de pré-visualização</videoDelay>
+    <videoDelayDefault>Padrão do tema</videoDelayDefault>
     <marquee>Marquise</marquee>
     <image>Imagem</image>
     <text>Texto</text>

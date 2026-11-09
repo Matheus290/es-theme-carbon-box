@@ -98,6 +98,11 @@
     <logosSubsetNamegamecarouseltype>サムネイル</logosSubsetNamegamecarouseltype>
     <!-- Subset options for Carousel content type -->
     <gamecarouseltype>カルーセル画像ソース</gamecarouseltype>
+    <previewImageSource>Preview image</previewImageSource>
+    <previewImageScreenshot>Screenshot (image)</previewImageScreenshot>
+    <previewImageCover>Cover (thumb)</previewImageCover>
+    <videoDelay>Preview video delay</videoDelay>
+    <videoDelayDefault>Theme default</videoDelayDefault>
     <marquee>マーキー</marquee>
     <image>画像</image>
     <text>テキスト</text>

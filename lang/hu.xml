@@ -98,6 +98,11 @@
     <logosSubsetNamegamecarouseltype>Bélyegképek</logosSubsetNamegamecarouseltype>
     <!-- Körforgó tartalomtípusának beállításai -->
     <gamecarouseltype>Körforgó képforrása</gamecarouseltype>
+    <previewImageSource>Preview image</previewImageSource>
+    <previewImageScreenshot>Screenshot (image)</previewImageScreenshot>
+    <previewImageCover>Cover (thumb)</previewImageCover>
+    <videoDelay>Preview video delay</videoDelay>
+    <videoDelayDefault>Theme default</videoDelayDefault>
     <marquee>Plakát</marquee>
     <image>Kép</image>
     <text>Szöveg</text>

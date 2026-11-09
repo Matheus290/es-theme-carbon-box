@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <!-- Delay before the preview video starts playing : 4500 ms -->
+  <view name="detailed,gamecarousel,grid">
+    <video name="md_video">
+      <delay>4.50</delay>
+    </video>
+  </view>
+  <customView name="Carousel,Boxes,Tiles,Icons,Content">
+    <video name="md_video">
+      <delay>4.50</delay>
+    </video>
+  </customView>
+</theme>

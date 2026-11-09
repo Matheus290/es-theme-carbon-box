@@ -100,6 +100,11 @@
     <logosSubsetNamegamecarouseltype>Vignettes</logosSubsetNamegamecarouseltype>
     <!-- Subset options for Carousel content type -->
     <gamecarouseltype>Source d'images du carrousel</gamecarouseltype>
+    <previewImageSource>Image d'aperçu</previewImageSource>
+    <previewImageScreenshot>Capture d'écran (image)</previewImageScreenshot>
+    <previewImageCover>Jaquette (thumb)</previewImageCover>
+    <videoDelay>Délai de la vidéo d'aperçu</videoDelay>
+    <videoDelayDefault>Par défaut du thème</videoDelayDefault>
     <marquee>Marquee</marquee>
     <image>Image</image>
     <text>Texte</text>

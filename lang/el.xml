@@ -98,6 +98,11 @@
     <logosSubsetNamegamecarouseltype>Μικρογραφίες</logosSubsetNamegamecarouseltype>
     <!-- Subset options for Carousel content type -->
     <gamecarouseltype>Πηγή εικόνας καρουζέλ</gamecarouseltype>
+    <previewImageSource>Preview image</previewImageSource>
+    <previewImageScreenshot>Screenshot (image)</previewImageScreenshot>
+    <previewImageCover>Cover (thumb)</previewImageCover>
+    <videoDelay>Preview video delay</videoDelay>
+    <videoDelayDefault>Theme default</videoDelayDefault>
     <marquee>Μαρκησία</marquee>
     <image>Εικόνα</image>
     <text>Κείμενο</text>

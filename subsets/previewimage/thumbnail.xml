@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <!-- Image shown in the game preview panel (video snapshot) : image = screenshot (-image.png), thumbnail = cover (-thumb.png) -->
+  <view name="detailed,gamecarousel,grid">
+    <video name="md_video">
+      <snapshotSource>thumbnail</snapshotSource>
+    </video>
+  </view>
+  <customView name="Carousel,Boxes,Tiles,Icons,Content">
+    <video name="md_video">
+      <snapshotSource>thumbnail</snapshotSource>
+    </video>
+  </customView>
+</theme>

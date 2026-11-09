@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!--
-Theme: es-theme-carbon
+Theme: es-theme-carbon-box (fork of es-theme-carbon)
 author: Fabrice CARUSO
 license: creative commons CC-BY-NC-SA
 originally based on: "Carbon" by Eric Hettervik (Rookervik)
@@ -63,6 +63,11 @@ languages and missing systems (batocera v36): by maioni
     <text>text</text>
     <thumbnail>thumbnail</thumbnail>
     <animatedInfobar>Animated preview bar</animatedInfobar>
+    <previewImageSource>Preview image</previewImageSource>
+    <previewImageScreenshot>Screenshot (image)</previewImageScreenshot>
+    <previewImageCover>Cover (thumb)</previewImageCover>
+    <videoDelay>Preview video delay</videoDelay>
+    <videoDelayDefault>Theme default</videoDelayDefault>
   </variables>
   <include>./lang/en.xml</include> <!-- Always include en as it's the default --> 
   <include lang="ar">./lang/ar.xml</include>
@@ -258,5 +263,36 @@ languages and missing systems (batocera v36): by maioni
 
   <!-- Add content view at end as it requires the subsets to be loaded -->
   <include>./views/content.xml</include>  
+
+  <!-- Image shown in the game preview panel : screenshot (image) or cover (thumbnail) -->
+  <subset name="previewimagesource" displayName="${previewImageSource}" appliesTo="detailed,grid,gamecarousel,Tiles,Icons,Carousel,Boxes,Content">
+    <include name="image" displayName="${previewImageScreenshot}">./subsets/previewimage/image.xml</include>
+    <include name="thumbnail" displayName="${previewImageCover}">./subsets/previewimage/thumbnail.xml</include>
+  </subset>
+  <!-- Delay before the preview video starts playing (0 to 5 s, 250 ms steps) -->
+  <subset name="videodelay" displayName="${videoDelay}" appliesTo="detailed,grid,gamecarousel,Tiles,Icons,Carousel,Boxes,Content">
+    <include name="default" displayName="${videoDelayDefault}"/>
+    <include name="0" displayName="0 s">./subsets/videodelay/0.xml</include>
+    <include name="250" displayName="0.25 s">./subsets/videodelay/250.xml</include>
+    <include name="500" displayName="0.5 s">./subsets/videodelay/500.xml</include>
+    <include name="750" displayName="0.75 s">./subsets/videodelay/750.xml</include>
+    <include name="1000" displayName="1 s">./subsets/videodelay/1000.xml</include>
+    <include name="1250" displayName="1.25 s">./subsets/videodelay/1250.xml</include>
+    <include name="1500" displayName="1.5 s">./subsets/videodelay/1500.xml</include>
+    <include name="1750" displayName="1.75 s">./subsets/videodelay/1750.xml</include>
+    <include name="2000" displayName="2 s">./subsets/videodelay/2000.xml</include>
+    <include name="2250" displayName="2.25 s">./subsets/videodelay/2250.xml</include>
+    <include name="2500" displayName="2.5 s">./subsets/videodelay/2500.xml</include>
+    <include name="2750" displayName="2.75 s">./subsets/videodelay/2750.xml</include>
+    <include name="3000" displayName="3 s">./subsets/videodelay/3000.xml</include>
+    <include name="3250" displayName="3.25 s">./subsets/videodelay/3250.xml</include>
+    <include name="3500" displayName="3.5 s">./subsets/videodelay/3500.xml</include>
+    <include name="3750" displayName="3.75 s">./subsets/videodelay/3750.xml</include>
+    <include name="4000" displayName="4 s">./subsets/videodelay/4000.xml</include>
+    <include name="4250" displayName="4.25 s">./subsets/videodelay/4250.xml</include>
+    <include name="4500" displayName="4.5 s">./subsets/videodelay/4500.xml</include>
+    <include name="4750" displayName="4.75 s">./subsets/videodelay/4750.xml</include>
+    <include name="5000" displayName="5 s">./subsets/videodelay/5000.xml</include>
+  </subset>
   <include>./layouts/${system.theme}_2.xml</include>
 </theme>

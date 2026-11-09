@@ -98,6 +98,11 @@
     <logosSubsetNamegamecarouseltype>Thumbnails</logosSubsetNamegamecarouseltype>
     <!-- Subset options for Carousel content type -->
     <gamecarouseltype>Image source for Carousel</gamecarouseltype>
+    <previewImageSource>Preview image</previewImageSource>
+    <previewImageScreenshot>Screenshot (image)</previewImageScreenshot>
+    <previewImageCover>Cover (thumb)</previewImageCover>
+    <videoDelay>Preview video delay</videoDelay>
+    <videoDelayDefault>Theme default</videoDelayDefault>
     <marquee>Marquee</marquee>
     <image>Image</image>
     <text>Text</text>

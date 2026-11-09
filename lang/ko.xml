@@ -98,6 +98,11 @@
     <logosSubsetNamegamecarouseltype>썸네일</logosSubsetNamegamecarouseltype>
     <!-- Subset options for Carousel content type -->
     <gamecarouseltype>캐러셀의 이미지 소스</gamecarouseltype>
+    <previewImageSource>Preview image</previewImageSource>
+    <previewImageScreenshot>Screenshot (image)</previewImageScreenshot>
+    <previewImageCover>Cover (thumb)</previewImageCover>
+    <videoDelay>Preview video delay</videoDelay>
+    <videoDelayDefault>Theme default</videoDelayDefault>
     <marquee>큰 천막</marquee>
     <image>영상</image>
     <text>텍스트</text>

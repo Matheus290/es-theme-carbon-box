@@ -98,6 +98,11 @@
     <logosSubsetNamegamecarouseltype>Miniaturen</logosSubsetNamegamecarouseltype>
     <!-- Subset options for Carousel content type -->
     <gamecarouseltype>Carrousel-afbeeldingsbron</gamecarouseltype>
+    <previewImageSource>Preview image</previewImageSource>
+    <previewImageScreenshot>Screenshot (image)</previewImageScreenshot>
+    <previewImageCover>Cover (thumb)</previewImageCover>
+    <videoDelay>Preview video delay</videoDelay>
+    <videoDelayDefault>Theme default</videoDelayDefault>
     <marquee>Marquee</marquee>
     <image>Afbeelding</image>
     <text>Tekst</text>
